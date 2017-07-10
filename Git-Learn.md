@@ -16,3 +16,7 @@ $ git config --global user.email “your_registered_github_Email”  #设置邮�
 151.101.44.249 github.global.ssl.fastly.net 
 
 git config http.postBuffer 524288000
+
+-----------------------------------------------------------------------------------------------------
+#取消代理 Failed to connect to 127.0.0.1 port 1080: Connection refused
+git config --global --unset http.proxy
